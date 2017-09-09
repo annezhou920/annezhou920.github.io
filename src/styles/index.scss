@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto|Space+Mono');
+
+$dark-gray: #696969;
+$light-gray: #A2A7A5;
+$blue-gray: #6a7176;
+$pastel-blue: #ddecf5;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', sans-serif;
+}

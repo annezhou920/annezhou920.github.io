@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Roboto|Space+Mono");
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', sans-serif; }
+
+.header__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 60px 10px; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 5px solid black; }
+  .logo .header__name {
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif; }
+
+.logo {
+  opacity: 0;
+  animation: fade-in-right ease 1s forwards; }
+
+.navigation__container {
+  animation-delay: 0.8s; }
+
+.navigation__container ul {
+  list-style-type: none;
+  padding: 0; }
+  .navigation__container ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(left, #696969, #A2A7A5);
+    background: -o-linear-gradient(right, #696969, #A2A7A5);
+    background: -moz-linear-gradient(right, #696969, #A2A7A5);
+    background: linear-gradient(to right, #696969, #A2A7A5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-15px); }
+  to {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@media screen and (max-width: 480px) {
+  .header__container {
+    padding: 20px 30px; } }

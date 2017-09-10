@@ -41,16 +41,13 @@ body {
   padding: 0; }
   .navigation__container ul li a {
     text-decoration: none;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(left, #696969, #A2A7A5);
-    background: -o-linear-gradient(right, #696969, #A2A7A5);
-    background: -moz-linear-gradient(right, #696969, #A2A7A5);
-    background: linear-gradient(to right, #696969, #A2A7A5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    background: black;
+    color: white;
+    padding: 5px; }
 
 @keyframes fade-in-right {
   from {

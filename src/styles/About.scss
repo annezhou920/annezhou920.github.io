@@ -12,7 +12,7 @@
 
 .about {
   .header {
-    height: 50px;
+    height: 70px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -21,11 +21,13 @@
 }
 
 .blue__wrapper {
-  position: relative;
   width: 10px;
   z-index: 1;
-  min-height: 200px;
   background: #07a;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
 }
 
 .main__container {
@@ -33,22 +35,24 @@
   margin-right: 20px;
   padding: 20px;
   width: 60%;
-  height: 200px;
   background: #eee;
   color: $dark-gray;
 
-  h3 {
+  h4 {
     display: block;
     margin: 0;
   }
-  .class__text {
+  .span__text--blue {
     color: #07a;
   }
-  .person__text {
+  .span__text--black {
     color: black;
   }
-  .constructor__text {
+  .span__text--red {
     color: #DD4A68;
+  }
+  .span__text--green {
+    color: #690;
   }
 }
 
@@ -57,22 +61,52 @@
   padding: 10px;
   margin: 10px;
   width: 40%;
+  color: black;
 
   h1 {
     padding: 0;
-    margin: 0;
+    margin: 5px;
     font-family: Helvetica;
-    font-size: 1.8em;
-    color: black;
+    font-size: 2em;
   }
 
-  .ampersand {
-    background: -webkit-linear-gradient(left, $blue-gray, $pastel-blue);
-    background: -o-linear-gradient(right, $blue-gray, $pastel-blue);
-    background: -moz-linear-gradient(right, $blue-gray, $pastel-blue);
-    background: linear-gradient(to right, $blue-gray, $pastel-blue);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  span {
+    padding: 0 5px;
+  }
+
+  .javascript {
+    background: linear-gradient(to bottom right, #f0db4f, transparent);
+  }
+  .react {
+    background: linear-gradient(to bottom right, #61dafb, transparent);
+  }
+
+  .redux {
+    background: linear-gradient(to bottom right, #764abc, transparent);
+  }
+
+  .node {
+    background: linear-gradient(to bottom right, #43853d, transparent);
+  }
+
+  .express {
+    background: linear-gradient(to bottom right, #90c53f, transparent);
+  }
+
+  .html {
+    background: linear-gradient(to bottom right, #f16529, transparent);
+  }
+
+  .css {
+    background: linear-gradient(to bottom right, #0277bd, transparent);
+  }
+
+  .sass {
+    background: linear-gradient(to bottom right, #cf649a, transparent);
+  }
+
+  .postgresql {
+    background: linear-gradient(to bottom right, #336791, transparent);
   }
 }
 

@@ -40,16 +40,13 @@
     li {
       a {
         text-decoration: none;
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-family: 'Fjalla One', sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase;
-        background: -webkit-linear-gradient(left, $dark-gray, $light-gray);
-        background: -o-linear-gradient(right, $dark-gray, $light-gray);
-        background: -moz-linear-gradient(right, $dark-gray, $light-gray);
-        background: linear-gradient(to right, $dark-gray, $light-gray);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background: black;
+        color: white;
+        padding: 5px;
       }
     }
   }

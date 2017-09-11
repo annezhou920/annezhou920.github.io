@@ -53,10 +53,15 @@ body {
 
 .sidebar {
   position: relative;
-  padding: 10px;
-  margin: 10px;
   width: 40%;
-  color: black; }
+  color: black;
+  padding: 20px; }
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
   .sidebar h1 {
     padding: 0;
     margin: 5px;
@@ -94,9 +99,7 @@ body {
     .main__container h3 {
       font-size: 1.5em; }
   .sidebar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto; }
+    padding: 0;
+    width: 100%; }
     .sidebar h1 {
       font-size: 1.3em; } }

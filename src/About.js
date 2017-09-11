@@ -9,19 +9,6 @@ export default class About extends Component {
           <h1><code>hello world!</code></h1>
         </header>
         <section className="content__wrapper">
-          <div className="sidebar">
-            <div className="sidebar__wrapper">
-              <h1><span className="javascript">JavaScript</span></h1>
-              <h1><span className="react">React</span></h1>
-              <h1><span className="redux">Redux</span></h1>
-              <h1><span className="node">Node</span></h1>
-              <h1><span className="express">Express</span></h1>
-              <h1><span className="html">HTML5</span></h1>
-              <h1><span className="css">CSS3</span></h1>
-              <h1><span className="sass">SASS</span></h1>
-              <h1><span className="postgresql">PostgreSQL</span></h1>
-            </div>
-          </div>
           <main className="main__container">
             <div className="blue__wrapper"></div>
             <h4>
@@ -52,6 +39,37 @@ export default class About extends Component {
               <span className="span__text--blue"> true</span>);
             </h4>
           </main>
+          <div className="sidebar">
+            <ul>
+              <li>
+                <h1><span className="javascript">JavaScript</span></h1>
+              </li>
+              <li>
+                <h1><span className="react">React</span></h1>
+              </li>
+              <li>
+                <h1><span className="redux">Redux</span></h1>
+              </li>
+              <li>
+                <h1><span className="node">Node</span></h1>
+              </li>
+              <li>
+                <h1><span className="express">Express</span></h1>
+              </li>
+              <li>
+                <h1><span className="html">HTML5</span></h1>
+              </li>
+              <li>
+                <h1><span className="css">CSS3</span></h1>
+              </li>
+              <li>
+                <h1><span className="sass">SASS</span></h1>
+              </li>
+              <li>
+                <h1><span className="postgresql">PostgreSQL</span></h1>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
     );

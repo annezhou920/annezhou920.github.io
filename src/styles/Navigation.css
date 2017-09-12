@@ -29,13 +29,6 @@ body {
     text-transform: uppercase;
     font-family: 'Fjalla One', sans-serif; }
 
-.logo {
-  opacity: 0;
-  animation: fade-in-right ease 1s forwards; }
-
-.navigation__container {
-  animation-delay: 0.8s; }
-
 .navigation__container ul {
   list-style-type: none;
   padding: 0; }
@@ -45,8 +38,8 @@ body {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: black;
-    color: white;
+    color: black;
+    font-weight: bolder;
     padding: 5px; }
 
 @keyframes fade-in-right {

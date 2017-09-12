@@ -25,13 +25,13 @@
   }
 }
 
-.logo {
-  opacity: 0;
-  animation: fade-in-right ease 1s forwards;
-}
-.navigation__container {
-  animation-delay: 0.8s;
-}
+// .logo {
+//   opacity: 0;
+//   animation: fade-in-right ease 1s forwards;
+// }
+// .navigation__container {
+//   animation-delay: 0.8s;
+// }
 .navigation__container {
   ul {
     list-style-type: none;
@@ -44,8 +44,8 @@
         font-family: 'Fjalla One', sans-serif;
         letter-spacing: 2px;
         text-transform: uppercase;
-        background: black;
-        color: white;
+        color: black;
+        font-weight: bolder;
         padding: 5px;
       }
     }

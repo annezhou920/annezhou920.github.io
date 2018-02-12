@@ -48,8 +48,8 @@
   background: #eee;
   color: $dark-gray;
 
-  h4 {
-    display: inline-block;
+  code {
+    font-size: 16px;
     margin: 0;
   }
   .span__text--blue {
@@ -163,6 +163,10 @@
 
   .main__container {
     padding: 0 5px;
+
+    code {
+      font-size: 14px;
+    }
 
     .vertical__line {
       left: 20px;

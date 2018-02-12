@@ -45,7 +45,9 @@ body {
   position: relative;
   margin: 20px auto;
   padding: 0 20px;
-  overflow-x: auto;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
   background: #eee;
   color: #696969; }
   .main__container code {

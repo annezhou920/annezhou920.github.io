@@ -7,6 +7,23 @@ export default class About extends Component {
       <div className="about">
         <header className="header">
           <h1><code>anne zhou</code></h1>
+          <div className="social__wrapper">
+            <a href="https://github.com/annezhou920" target={'_blank' /* eslint-disable-next-line */}>
+              <i className="fab fa-github fa-lg"></i>
+            </a>
+            <a href="https://twitter.com/_annezhou?lang=en" target={'_blank' /* eslint-disable-next-line */}>
+              <i className="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/annezhou920/" target={'_blank' /* eslint-disable-next-line */}>
+              <i className="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://medium.com/@_annezhou" target={'_blank' /* eslint-disable-next-line */}>
+              <i className="fab fa-medium fa-lg"></i>
+            </a>
+            <a href="mailto:anne.zhou920@gmail.com" target={'_blank' /* eslint-disable-next-line */}>
+              <i className="far fa-envelope fa-lg"></i>
+            </a>
+          </div>
         </header>
         <section className="content__wrapper">
           <main className="main__container">

@@ -17,11 +17,20 @@ body {
   width: 100%; }
 
 .about .header {
-  height: 30px;
   position: relative;
+  display: block;
+  text-align: center; }
+  .about .header h1 {
+    font-size: 40px;
+    margin: 10px 0; }
+
+.about .social__wrapper {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .about .social__wrapper a {
+    color: #3498db;
+    padding: 0 20px; }
 
 .vertical__line {
   border-right: 1px solid #999;
@@ -69,13 +78,15 @@ body {
   position: relative;
   color: black;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .tools ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
   .tools li {
     padding: 5px 0; }
   .tools h1 {
